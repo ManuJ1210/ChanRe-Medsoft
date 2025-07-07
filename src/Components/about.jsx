@@ -44,9 +44,9 @@ function About() {
         transition={{ duration: 1 }}
         className="flex-1 text-center"
       >
-        <div className="relative mx-auto w-fit rounded-2xl border border-purple-500/30 bg-white/5 backdrop-blur-md shadow-xl p-1">
+        <div className="relative mx-auto w-fit rounded-2xl border border-purple-500/30 bg-white/5 backdrop-blur-md shadow-xl p-1  hover:shadow-cyan-500/30 hover:border-cyan-400 transition-all">
           <img
-            className="rounded-xl h-80 object-cover"
+            className="rounded-xl h-80 object-cover "
             src="/about.png"
             alt="About ChanReMedSoft"
           />

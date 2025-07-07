@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 function HeroSection() {
   return (
-    <section className="relative z-10 mt-32 px-6 md:px-20 py-52 text-center overflow-hidden">
-      {/* 🌌 Neon Skeleton Illustration - Full Blend Background */}
+    <section className="relative z-10 mt-16 px-6 md:px-20 py-52 text-center overflow-hidden">
+      
       <div className="absolute inset-0 -z-20">
         <img
           src="/banner.png"
@@ -13,7 +13,7 @@ function HeroSection() {
         />
       </div>
 
-      {/* 🧠 Heading with typewriter */}
+    
       <motion.h1
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -31,7 +31,7 @@ function HeroSection() {
         />
       </motion.h1>
 
-      {/* ✨ Subheading */}
+
       <motion.p
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ function HeroSection() {
         Empowering Healthcare Through Next-Gen Technology
       </motion.p>
 
-      {/* 🔘 CTA Button */}
+
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

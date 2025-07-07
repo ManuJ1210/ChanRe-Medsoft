@@ -35,7 +35,8 @@ function Services() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: idx * 0.1 }}
             whileHover={{ scale: 1.05 }}
-            className="group bg-[#012a3a]/60 border border-cyan-500/20 backdrop-blur-md rounded-2xl p-6 text-center shadow-xl hover:shadow-cyan-500/30 hover:border-cyan-400 transition-all"
+            className="group bg-white/5 border border-cyan-400/20 backdrop-blur-lg rounded-3xl p-6 text-center
+                        shadow-xl hover:shadow-cyan-500/30 hover:border-cyan-400 transition-all"
           >
             {/* Icon bounce */}
             <motion.div

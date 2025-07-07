@@ -2,7 +2,7 @@ import Header from '../Components/Header';
 import HeroSection from '../Components/HeroSection';
 import Services from '../Components/Services';
 import About from '../Components/about';
-import Products from '../Components/products';
+import Products from '../Components/productSection';
 import { motion } from 'framer-motion';
 
 function Homepage() {
@@ -15,7 +15,7 @@ function Homepage() {
         <HeroSection />
         <Services />
         <About />
-        <Products />
+        <Products/>
 
         {/* Custom CTA Section */}
         <section className="relative z-10 px-6 md:px-20 py-24">

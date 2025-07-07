@@ -34,7 +34,7 @@ function Products() {
 
   return (
     <section className="relative z-10 px-6 md:px-24 py-24 overflow-hidden bg-transparent">
-      {/* 🔷 Embedded Keyframe Animation for Tailwind */}
+   
       <style>
         {`
           @keyframes scrollSlider {
@@ -48,12 +48,11 @@ function Products() {
         `}
       </style>
 
-      {/* Neon Heading */}
+     
       <h3 className="text-3xl md:text-4xl font-extrabold text-center mb-14 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
         Our Products
       </h3>
 
-      {/* 🔁 Infinite Scrolling Container */}
       <div className="relative w-full h-60 overflow-hidden">
         <div className="flex gap-8 w-max animate-infinite-scroll">
           {repeated.map((product, idx) => (
@@ -64,9 +63,10 @@ function Products() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               whileHover={{ scale: 1.05 }}
-              className="group bg-[#012a3a]/60 border border-cyan-400/20 mt-10 backdrop-blur-md text-center rounded-2xl p-6 shadow-md hover:shadow-cyan-400/30 hover:border-cyan-300 transition-all w-[260px] shrink-0"
+              className="group bg-white/5 border border-cyan-400/20 backdrop-blur-lg rounded-3xl p-6 text-center
+                     transition-allp-6 mt-10  shadow-md hover:shadow-cyan-400/30 hover:border-cyan-300 transition-all w-[260px] shrink-0"
             >
-              {/* Icon */}
+          
               <motion.div
                 animate={{ y: [0, -6, 0] }}
                 transition={{ repeat: Infinity, duration: 2 }}
@@ -75,7 +75,7 @@ function Products() {
                 {product.icon}
               </motion.div>
 
-              {/* Title */}
+             
               <h4 className="text-white text-base font-semibold mb-1">
                 {product.title}
               </h4>
