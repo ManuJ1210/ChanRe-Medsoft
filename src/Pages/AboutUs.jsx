@@ -26,7 +26,7 @@ const sections = [
 function AboutUs() {
   return (
     <>
-      {/* About Us Intro */}
+
       <section className="relative z-10 px-6 md:px-20 py-24 mt-16">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -50,12 +50,13 @@ function AboutUs() {
         </motion.div>
       </section>
 
-      {/* Why Us Title */}
+     
       <h3 className="text-3xl md:text-4xl font-extrabold text-center mb-10 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
         Why Us?
       </h3>
+      
 
-      {/* Reusable Feature Sections */}
+     
       {sections.map((sec, index) => {
         const isEven = index % 2 === 0;
         return (
@@ -67,11 +68,11 @@ function AboutUs() {
             viewport={{ once: true }}
             transition={{ staggerChildren: 0.3 }}
           >
-            {/* Glow Effects */}
+            
             <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-10 -z-10" />
             <div className="absolute -bottom-10 -right-10 w-72 h-72 bg-cyan-400 rounded-full blur-3xl opacity-10 -z-10" />
 
-            {/* LEFT IMAGE */}
+            
             {isEven && (
               <motion.div
                 initial={{ opacity: 0, x: 60 }}
@@ -89,7 +90,7 @@ function AboutUs() {
               </motion.div>
             )}
 
-            {/* TEXT BLOCK */}
+          
             <motion.div
               initial={{ opacity: 0, x: isEven ? -60 : 60 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -107,7 +108,7 @@ function AboutUs() {
               </div>
             </motion.div>
 
-            {/* RIGHT IMAGE - Now Fixed Animation */}
+           
             {!isEven && (
               <motion.div
                 initial={{ opacity: 0, x: -60 }} 

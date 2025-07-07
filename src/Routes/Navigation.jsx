@@ -5,6 +5,7 @@ import OurProducts from "../Pages/OurProducts";
 import HICMSPage from "../ProductsInformations.jsx/HICMS";
 import AppointmentSystem from "../ProductsInformations.jsx/AppointmentSystem";
 import AIChatbot from "../ProductsInformations.jsx/AIChatbot";
+import DatabaseRegistry from "../ProductsInformations.jsx/DatabaseRegistry";
 
 function Navigation() {
   return (
@@ -20,7 +21,7 @@ function Navigation() {
          <Route path="/HICMSPage" element={<HICMSPage/>}/>
           <Route path="/AppointmentSystem" element={<AppointmentSystem/>}/>
            <Route path="/AIChatbot" element={<AIChatbot/>}/>
-            <Route path="/HICMSPage" element={<HICMSPage/>}/>
+            <Route path="/DatabaseRegistry" element={<DatabaseRegistry/>}/>
              <Route path="/HICMSPage" element={<HICMSPage/>}/>
               <Route path="/HICMSPage" element={<HICMSPage/>}/>
                <Route path="/HICMSPage" element={<HICMSPage/>}/>

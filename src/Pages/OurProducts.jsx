@@ -28,7 +28,8 @@ const products = [
   {
     title: "Database Registry",
     desc: "Database Registry is a versatile digital platform that empowers users to securely enter, store, while also providing the flexibility to export the stored information in CSV or PDF formats.",
-    icon: <FaDatabase className="text-blue-400 text-4xl mb-4" />
+    icon: <FaDatabase className="text-blue-400 text-4xl mb-4" />,
+    Link :"/DatabaseRegistry"
   },
   {
     title: "Online Quiz",
@@ -73,8 +74,7 @@ function OurProducts() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="bg-white/5 border border-cyan-400/20 backdrop-blur-lg rounded-3xl p-6 text-center
-                       shadow-lg hover:shadow-cyan-400/30 transition-all"
+            className="bg-white/5 border border-cyan-400/20 backdrop-blur-lg rounded-3xl p-6 text-center shadow-lg hover:shadow-cyan-400/30 transition-all"
           >
             <div className="flex justify-center">
               {product.icon}

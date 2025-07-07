@@ -18,7 +18,7 @@ function HeroSection() {
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="text-5xl md:text-6xl h-20 font-extrabold bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 bg-clip-text text-transparent tracking-wide drop-shadow-xl"
+        className="text-5xl md:text-6xl h-30 font-extrabold bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 bg-clip-text text-transparent tracking-wide drop-shadow-xl"
       >
         <Typewriter
           words={["Web Development", "Mobile Apps", "Digital Marketing"]}
