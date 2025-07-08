@@ -53,6 +53,7 @@ export default function WebsiteDevelopment() {
         >
           At <span className="text-purple-300 font-semibold">ChanRe MedSoft</span>, we help you build modern websites that align with your business goals. From planning and design to development and maintenance, our expert team ensures secure, scalable, and visually stunning solutions.
         </motion.p>
+      <br/>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -60,35 +61,46 @@ export default function WebsiteDevelopment() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-4"
         >
-          Our development process includes:
+         We start the process by understanding your business goals and objectives and then create a website design that meets those goals. We use the latest web technologies and coding standards to ensure your website is secure, fast, and easy to use
         </motion.p>
-
-        <motion.ul
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ staggerChildren: 0.15 }}
-          className="list-disc list-inside ml-4 space-y-2"
+        <br />
+          <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="mb-4"
         >
-          {['Planning: Understanding client requirements and goals.', 'Design: Creating wireframes and design mockups.', 'Development: Coding using modern standards and frameworks.', 'Launch: Testing and going live with client approval.', 'Maintenance: Ongoing updates and support.'].map((item, idx) => (
-            <motion.li
-              key={idx}
-              initial={{ opacity: 0, x: -10 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.4, delay: idx * 0.1 }}
-            >
-              <strong className="text-gradient">{item.split(':')[0]}</strong>: {item.split(':')[1]}
-            </motion.li>
-          ))}
-        </motion.ul>
+         Once the website design is approved, our web developers will begin coding the website, including custom coding for any features you may require. They will also test the website for any bugs and ensure the website is secure.
+        </motion.p>
+        <br />
+          <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="mb-4"
+        >
+         We provide comprehensive website development services for businesses of all sizes. Our services include the development of responsive websites, content management systems, and online marketing campaigns. With our expertise, you can rest assured that your website will be built to the highest quality standards and be optimized for maximum performance.
+        </motion.p>
+        <br />
+          <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="mb-4"
+        >
+         We offer website development services to help you create a professional and attractive website for your business. Our experienced developers specialize in creating custom websites with features such as intuitive navigation, search engine optimization, mobile-responsive design, and more. We understand that websites are more than just a way to showcase your business—they're a tool to engage customers and build relationships. That's why our team takes a holistic approach to website development, ensuring that your website looks great, functions smoothly, and helps you reach your business goals.
+        </motion.p>
+        <br />
+         
 
+        
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-6"
         >
-          Our team uses best practices in:
+          At ChanRe Medsoft, we take pride in providing world-class website development services that meet your specific business needs. Contact us today to learn more about our website development services and how we can help you create the perfect website for your business.
         </motion.p>
 
         <motion.ul
@@ -123,7 +135,7 @@ export default function WebsiteDevelopment() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-          Whether you're a startup or an established business, our goal is to empower your digital presence with top-tier website development. Let us bring your vision to life!
+         To start your website development project, contact us for a consultation and discover how ChanRe Medsoft can help your business thrive in the digital age.
         </motion.p>
 
         <motion.div

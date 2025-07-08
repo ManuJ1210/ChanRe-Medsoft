@@ -47,7 +47,7 @@ export default function ServicesGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.1 }}
             viewport={{ once: true }}
-            className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-all"
+            className="bg-white/5 border border-cyan-400/20 backdrop-blur-lg rounded-3xl p-6 text-center shadow-lg hover:shadow-cyan-400/30 transition-all"
           >
             <div className="flex justify-center mb-4">{service.icon}</div>
             <h4 className="text-lg font-semibold text-white mb-2">{service.name}</h4>

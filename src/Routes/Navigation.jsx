@@ -12,6 +12,10 @@ import OnlineQuize from "../ProductsInformations/OnlineQuiz";
 import OurServices from "../Pages/OurServices";
 import HIMS from "../ProductsInformations/HIMS";
 import PharmacyManagement from "../ProductsInformations/PharmacyManagement";
+import Partner from "../Pages/Partner";
+import Contact from "../Pages/Contact";
+import Quotation from "../Pages/Quotation";
+
 
 function Navigation() {
   return (
@@ -22,6 +26,9 @@ function Navigation() {
         <Route path="/about" element={<AboutUs/>} />
          <Route path="/ourproducts" element={<OurProducts/>} />
         <Route path="/OurServices" element={<OurServices />} />
+        <Route path="/Partner" element={<Partner />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Quotation" element={<Quotation />} />
 
 
 
@@ -33,7 +40,6 @@ function Navigation() {
         <Route path="/OnlineQuize" element={<OnlineQuize />} />
         <Route path="/HIMS" element={<HIMS />} />
         <Route path="/PharmacyManagement" element={<PharmacyManagement />} />
-
         <Route path="/WebsiteDevelopment" element={< WebsiteDevelopment/>}/>
 
 

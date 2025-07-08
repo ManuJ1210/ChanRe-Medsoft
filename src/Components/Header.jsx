@@ -31,7 +31,7 @@ function Header() {
   
         <div className="hidden md:block">
           <Link
-            to="/quote"
+            to="/Quotation"
             className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm sm:text-base
                        px-5 py-2 rounded-full shadow-md hover:brightness-110 transition"
           >
@@ -72,7 +72,7 @@ function Header() {
           <Link to="/partner" className="block text-white/90 hover:text-cyan-300 transition">Partner</Link>
           <Link to="/contact" className="block text-white/90 hover:text-cyan-300 transition">Contact</Link>
           <Link
-            to="/quote"
+            to="/Quotation"
             className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600
                        text-white px-5 py-2 rounded-full shadow-lg hover:brightness-110 transition"
           >
