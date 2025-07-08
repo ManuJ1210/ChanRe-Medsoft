@@ -22,21 +22,21 @@ function Header() {
         <div className="hidden md:flex gap-6 text-sm sm:text-base items-center">
           <Link to="/" className="text-white/80 hover:text-cyan-300 transition">Home</Link>
           <Link to="/about" className="text-white/80 hover:text-cyan-300 transition">About</Link>
+          <Link to="/OurServices" className="text-white/80 hover:text-cyan-300 transition">Services</Link>
           <Link to="/ourproducts" className="text-white/80 hover:text-cyan-300 transition">Product</Link>
-          <a href="#services" className="text-white/80 hover:text-cyan-300 transition">Services</a>
-          <a href="#partner" className="text-white/80 hover:text-cyan-300 transition">Partner</a>
-          <a href="#contact" className="text-white/80 hover:text-cyan-300 transition">Contact</a>
+          <Link to="/partner" className="text-white/80 hover:text-cyan-300 transition">Partner</Link>
+          <Link to="/contact" className="text-white/80 hover:text-cyan-300 transition">Contact</Link>
         </div>
 
   
         <div className="hidden md:block">
-          <a
-            href="#quote"
+          <Link
+            to="/quote"
             className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white text-sm sm:text-base
                        px-5 py-2 rounded-full shadow-md hover:brightness-110 transition"
           >
             Quote
-          </a>
+          </Link>
         </div>
 
         <button
@@ -61,23 +61,23 @@ function Header() {
 
     
       {menuOpen && (
-        <div className="fixed top-[5.2rem] left-1/2 transform -translate-x-1/2
+        <div className="fixed top-[5.2rem] left-1/2 transform -translate-x-1/2 mt-5
                         w-[95%] sm:w-[90%] md:hidden bg-white/10 backdrop-blur-lg
                         border border-cyan-500/20 rounded-2xl shadow-xl
                         text-center text-sm space-y-4 py-6 px-4 z-40">
-          <a href="#home" className="block text-white/90 hover:text-cyan-300 transition">Home</a>
-          <a href="#about" className="block text-white/90 hover:text-cyan-300 transition">About</a>
-          <a href="#product" className="block text-white/90 hover:text-cyan-300 transition">Product</a>
-          <a href="#services" className="block text-white/90 hover:text-cyan-300 transition">Services</a>
-          <a href="#partner" className="block text-white/90 hover:text-cyan-300 transition">Partner</a>
-          <a href="#contact" className="block text-white/90 hover:text-cyan-300 transition">Contact</a>
-          <a
-            href="#quote"
+          <Link to="/" className="block text-white/90 hover:text-cyan-300 transition">Home</Link>
+          <Link to="/about" className="block text-white/90 hover:text-cyan-300 transition">About</Link>
+          <Link to="/OurServices" className="block text-white/90 hover:text-cyan-300 transition">Services</Link>
+          <Link to="/product" className="block text-white/90 hover:text-cyan-300 transition">Product</Link>
+          <Link to="/partner" className="block text-white/90 hover:text-cyan-300 transition">Partner</Link>
+          <Link to="/contact" className="block text-white/90 hover:text-cyan-300 transition">Contact</Link>
+          <Link
+            to="/quote"
             className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600
                        text-white px-5 py-2 rounded-full shadow-lg hover:brightness-110 transition"
           >
             Quote
-          </a>
+          </Link>
         </div>
       )}
     </>

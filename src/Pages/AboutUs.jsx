@@ -89,8 +89,6 @@ function AboutUs() {
                 </div>
               </motion.div>
             )}
-
-          
             <motion.div
               initial={{ opacity: 0, x: isEven ? -60 : 60 }}
               whileInView={{ opacity: 1, x: 0 }}
