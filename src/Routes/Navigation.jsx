@@ -10,6 +10,8 @@ import WebsiteDevelopment from "../ServicesInfo/WebDevelopment";
 import CDME from "../ProductsInformations/CDME";
 import OnlineQuize from "../ProductsInformations/OnlineQuiz";
 import OurServices from "../Pages/OurServices";
+import HIMS from "../ProductsInformations/HIMS";
+import PharmacyManagement from "../ProductsInformations/PharmacyManagement";
 
 function Navigation() {
   return (
@@ -29,8 +31,8 @@ function Navigation() {
         <Route path="/DatabaseRegistry" element={<DatabaseRegistry />} />
         <Route path="/CDME" element={<CDME />} />
         <Route path="/OnlineQuize" element={<OnlineQuize />} />
-        <Route path="/HICMSPage" element={<HICMSPage />} />
-        <Route path="/HICMSPage" element={<HICMSPage />} />
+        <Route path="/HIMS" element={<HIMS />} />
+        <Route path="/PharmacyManagement" element={<PharmacyManagement />} />
 
         <Route path="/WebsiteDevelopment" element={< WebsiteDevelopment/>}/>
 

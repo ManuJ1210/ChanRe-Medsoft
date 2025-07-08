@@ -14,7 +14,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const services = [
-  { icon: <FaLaptopCode size={28} color="#3B82F6" />, name: "Website Development", Link:"/"  },
+  { icon: <FaLaptopCode size={28} color="#3B82F6" />, name: "Website Development", Link:"/WebsiteDevelopment"  },
   { icon: <FaAndroid size={28} color="#3DDC84" />, name: "Android App Development", Link:"/"  },
   { icon: <FaApple size={28} color="#A2AAAD" />, name: "iOS App Development", Link:"/"  },
   { icon: <FaHospital size={28} color="#EC4899" />, name: "Hospital Software", Link:"/"  },

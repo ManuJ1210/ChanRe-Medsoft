@@ -3,7 +3,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function WebsiteDevelopment() {
   return (
-    <section className="px-6 py-16 md:px-20  text-white min-h-screen">
+    <section className="px-6 py-16 md:px-20  text-white min-h-screen mt-12">
    
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -12,7 +12,7 @@ export default function WebsiteDevelopment() {
         viewport={{ once: true }}
         className="text-center mb-12"
       >
-        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+        <h2 className="text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text mb-2">
           Website Development
         </h2>
         <p className="mt-4 text-blue-200 text-sm md:text-base max-w-2xl mx-auto">
@@ -29,11 +29,11 @@ export default function WebsiteDevelopment() {
         className="flex justify-center mb-12"
       >
         <img
-          src="https://cdn.pixabay.com/photo/2017/08/30/07/52/computer-2690527_1280.jpg"
+          src="Webdevelopment.png"
           alt="Web development illustration"
-          className="rounded-xl shadow-xl border border-purple-500/20 max-w-full h-auto"
+          className="rounded-xl shadow-xl border p-2 border-purple-500/20 max-w-full h-auto"
           width="900"
-          height="500"
+          height="400"
         />
       </motion.div>
 
