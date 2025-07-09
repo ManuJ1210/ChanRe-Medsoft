@@ -34,22 +34,26 @@ const products = [
    {
      title: "Online Quiz",
      desc: "Our Online Quiz System is your gateway to engaging quizzes and assessments that promise to entertain, educate, and inspire.",
-     icon: <FaQuestionCircle className="text-emerald-400 text-4xl mb-4" />
+     icon: <FaQuestionCircle className="text-emerald-400 text-4xl mb-4" />,
+      Link: "/OnlineQuize"
    },
    {
      title: "HIMS",
      desc: "ChanRe MedSoft provides a powerful solution to meet the needs of both hospitals and patients.",
-     icon: <FaHeartbeat className="text-indigo-400 text-4xl mb-4" />
+     icon: <FaHeartbeat className="text-indigo-400 text-4xl mb-4" />,
+     Link: "/HIMS"
    },
    {
      title: "CDME",
      desc: "ChanRe Med Soft has developed a revolutionary Clinical Data Management Exchange System for Rheumatology",
-     icon: <FaExchangeAlt className="text-yellow-400 text-4xl mb-4" />
+     icon: <FaExchangeAlt className="text-yellow-400 text-4xl mb-4" />,
+     Link: "/CDME"
    },
    {
      title: "Pharmacy Management",
      desc: "In the ever-evolving healthcare landscape, efficient and precise management of pharmacy operations is paramount.",
-     icon: <FaCapsules className="text-rose-400 text-4xl mb-4" />
+     icon: <FaCapsules className="text-rose-400 text-4xl mb-4" />,
+     Link: "/PharmacyManagement"
    },
 ];
 

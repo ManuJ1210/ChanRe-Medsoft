@@ -16,9 +16,9 @@ import { Link } from 'react-router-dom';
 const services = [
   { icon: <FaLaptopCode size={28} color="#3B82F6" />, name: "Website Development", Link:"/WebsiteDevelopment"  },
   { icon: <FaAndroid size={28} color="#3DDC84" />, name: "Android App Development", Link:"/AndroidAppDevelopment"  },
-  { icon: <FaApple size={28} color="#A2AAAD" />, name: "iOS App Development", Link:"/iOSAppDevelopment"  },
+  { icon: <FaApple size={28} color="#A2AAAD" />, name: "iOS App Development", Link:"/IOSDevelopment"  },
   { icon: <FaHospital size={28} color="#EC4899" />, name: "Hospital Software", Link:"/HospitalSoftware"  },
-  { icon: <FaSearch size={28} color="#F59E0B" />, name: "SEO Optimization", Link:"/SEOOptimization"  },
+  { icon: <FaSearch size={28} color="#F59E0B" />, name: "SEO Optimization", Link:"/SEO"  },
   { icon: <FaBullhorn size={28} color="#10B981" />, name: "Social Bookmarking", Link:"/SocialBookmarking"  },
   { icon: <FaGoogle size={28} color="#EA4335" />, name: "Google Ads", Link:"/GoogleAds"  },
   { icon: <FaFacebook size={28} color="#1877F2" />, name: "Facebook Ads", Link:"/FacebookAds"  },

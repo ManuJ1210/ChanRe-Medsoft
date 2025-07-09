@@ -6,7 +6,7 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-function AndroidAppDevelopment() {
+function IOSDevelopment() {
   return (
     <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
@@ -17,10 +17,10 @@ function AndroidAppDevelopment() {
         className="text-center mb-12"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6">
-          Android App Development
+          iOS App Development
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">
-          Turning Ideas into Apps
+            Transforming Ideas into Exceptional iOS Experiences
         </p>
       </motion.div>
 
@@ -47,13 +47,13 @@ function AndroidAppDevelopment() {
         className="max-w-5xl mx-auto text-blue-100 text-lg md:text-xl leading-relaxed space-y-8"
       >
         {[
-          "In today’s digital age, having a strong online presence is essential for any business. That’s why our team of experienced Android developers is here to help you take your business to the next level.",
-          "At ChanRe Medsoft, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience."
+          "In the dynamic landscape of today's digital realm, establishing a captivating presence on Apple's iOS platform can be the catalyst for transforming your business. Our team of seasoned iOS developers is here to help you create custom iOS apps that align perfectly with your unique business needs.",
+          "We provide a wide range of iOS app development services, from UI/UX design to the development of feature-rich apps. We use the latest technologies, such as Swift and Objective-C, to create apps that offer maximum performance and stability. Furthermore, our developers are well-versed in developing apps for all Apple devices, including the iPhone, iPad, Apple Watch, and Apple TV.With our experienced team of app developers, you can be sure that your app will be reliable, secure, and optimized for the highest user experience."
         ].map((text, idx) => (
           <motion.p key={idx} variants={fadeInUp}>
             {text.includes("ChanRe Medsoft") ? (
               <span>
-                At <span className="text-purple-300 font-semibold">ChanRe Medsoft</span>, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience.
+                
               </span>
             ) : (
               text
@@ -67,7 +67,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Our Android App Development Process:
+         Our iOS App Development Process:
         </motion.h3>
 
         <motion.ul
@@ -79,44 +79,44 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Consultation and Idea Evaluation",
+              title: "Consultation and Idea Exploration:",
               points: [
-                "We begin by understanding your business goals and app ideas.",
-                "Our team evaluates the feasibility and potential of your concept."
+                "We kickstart the process by comprehending your business objectives and app concepts.",
+                "Our team evaluates the feasibility and potential of your ideas."
               ]
             },
             {
-              title: "Design and Prototyping",
+              title: "Design and Prototyping:",
               points: [
-                "Our designers create intuitive, user-friendly app interfaces.",
-                "We develop prototypes for your feedback and approval."
+                "Our expert designers craft user-friendly app interfaces with a focus on aesthetics and usability.",
+                "We develop prototypes to gather your feedback and ensure alignment with your vision."
               ]
             },
             {
               title: "Development",
               points: [
-                "Our developers bring your app to life using the latest Android technologies.",
-                "We ensure compatibility with various Android devices and OS versions."
+                "Our skilled developers bring your app to life using the latest iOS technologies.",
+                "We ensure compatibility across various iOS devices and OS versions."
               ]
             },
             {
               title: "Quality Assurance",
               points: [
-                "Rigorous testing is conducted to identify and fix any bugs or issues.",
-                "We perform usability testing to guarantee a seamless user experience."
+                "Thorough testing is conducted to identify and resolve any issues or bugs.",
+                "Usability testing guarantees a flawless user experience."
               ]
             },
             {
               title: "Deployment",
               points: [
-                "We assist with app store submission and optimization for maximum visibility.",
+                "We assist with the app store submission process and optimize your app for maximum visibility.",
                 "Your app is made available to your target audience."
               ]
             },
             {
               title: "Support and Maintenance",
               points: [
-                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive."
+                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive and secure."
               ]
             }
           ].map((section, idx) => (
@@ -144,7 +144,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Why Choose ChanRe Medsoft for Android App Development?
+          Why Choose ChanRe Medsoft for iOS App Development?
         </motion.h3>
 
         <motion.ul
@@ -156,19 +156,19 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Expertise :",
-              desc1: "Our team consists of seasoned Android developers with years of hands-on experience.",
-              desc2: "We stay up-to-date with the latest trends and technologies in the Android app development ecosystem."
+              title: "Expertise",
+              desc1: "Our team comprises experienced iOS developers who are well-versed in the latest Apple technologies.",
+              desc2: "We stay updated with the ever-evolving iOS ecosystem to ensure your app stays ahead of the competition."
             },
             {
-              title: "Custom Solutions :",
-              desc1: "We understand that every business is unique.",
-              desc2: "That’s why we offer tailor-made solutions to meet your specific requirements."
+              title: "Custom Solutions",
+              desc1: "We understand that each business is distinct. That's why we offer personalized solutions to cater to your specific requirements.",
+              desc2: "Our apps are designed to provide seamless user experiences, ensuring user retention and satisfaction."
             },
             {
-              title: "Comprehensive Services :",
-              desc1: "From concept and design to development and deployment, we provide end-to-end app development services.",
-              desc2: "We also offer post-launch support and maintenance."
+              title: "Comprehensive Services",
+              desc1: "From conceptualization and design to development and deployment, we offer end-to-end iOS app developmentservices.",
+              desc2: "We also provide post-launch support and maintenance to keep your app running smoothly."
             }
           ].map(({ title, desc1, desc2 }, index) => (
             <motion.li
@@ -182,7 +182,7 @@ function AndroidAppDevelopment() {
                 <div className="space-y-1 text-blue-100">
                   <h4 className="text-lg font-semibold text-cyan-300">{title}</h4>
                   <p className="leading-relaxed text-base">{desc1}</p>
-                  <p className="leading-relaxed text-base">{desc2}</p>
+                  {desc2 && <p className="leading-relaxed text-base">{desc2}</p>}
                 </div>
               </div>
             </motion.li>
@@ -195,7 +195,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-          Ready to discuss your Android app development project? Contact us today to schedule a consultation and learn how ChanRe Medsoft can help your business thrive in the digital era.
+          If you have an iOS app development project you'd like to discuss, contact us now to arrange a consultation. Let ChanRe Medsoft  help your business succeed in the digital arena.
         </motion.p>
 
         <motion.div
@@ -213,4 +213,4 @@ function AndroidAppDevelopment() {
   );
 }
 
-export default AndroidAppDevelopment;
+export default IOSDevelopment;

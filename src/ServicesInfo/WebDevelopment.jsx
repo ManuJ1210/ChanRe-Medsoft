@@ -121,10 +121,10 @@ export default function WebsiteDevelopment() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="flex items-start gap-3"
+              className="flex items-start gap-3 "
             >
               <FaCheckCircle className="text-purple-400 mt-1" />
-              <span><strong>{title}:</strong> {desc}</span>
+              <span><strong className="text-cyan-300">{title}:</strong> {desc}</span>
             </motion.li>
           ))}
         </motion.ul>

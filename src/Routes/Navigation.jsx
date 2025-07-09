@@ -16,6 +16,9 @@ import Partner from "../Pages/Partner";
 import Contact from "../Pages/Contact";
 import Quotation from "../Pages/Quotation";
 import AndroidAppDevelopment from "../ServicesInfo/AndroidDevelopment";
+import IOSDevelopment from "../ServicesInfo/IOSDevelopment";
+import HospitalSoftware from "../ServicesInfo/HospitalSoftware";
+import SEO from "../ServicesInfo/SEO";
 
 
 
@@ -46,7 +49,9 @@ function Navigation() {
 
         <Route path="/WebsiteDevelopment" element={< WebsiteDevelopment/>}/>
         <Route path="/AndroidAppDevelopment" element={<AndroidAppDevelopment />} />
-
+        <Route path="/IOSDevelopment" element={<IOSDevelopment />} />
+        <Route path="/HospitalSoftware" element={<HospitalSoftware />} />
+        <Route path="/SEO" element={<SEO />} />
 
       </Routes>
      

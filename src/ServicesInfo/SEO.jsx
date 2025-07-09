@@ -6,7 +6,7 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-function AndroidAppDevelopment() {
+function SEO() {
   return (
     <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
@@ -17,10 +17,10 @@ function AndroidAppDevelopment() {
         className="text-center mb-12"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6">
-          Android App Development
+          SEO 
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">
-          Turning Ideas into Apps
+            Empowering Your Online Presence
         </p>
       </motion.div>
 
@@ -32,8 +32,8 @@ function AndroidAppDevelopment() {
         className="flex justify-center mb-12"
       >
         <img
-          src="/Webdevelopment.png"
-          alt="Android app development flow"
+          src="/seo.png"
+          alt="SEO services"
           className="rounded-xl shadow-xl border p-2 border-purple-500/20 max-w-full h-auto"
           width="900"
           height="400"
@@ -47,13 +47,13 @@ function AndroidAppDevelopment() {
         className="max-w-5xl mx-auto text-blue-100 text-lg md:text-xl leading-relaxed space-y-8"
       >
         {[
-          "In today’s digital age, having a strong online presence is essential for any business. That’s why our team of experienced Android developers is here to help you take your business to the next level.",
-          "At ChanRe Medsoft, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience."
+          "In today's highly competitive digital landscape, having a strong online presence is critical for the success of your business. Our team of experienced SEO professionals is here to help you achieve better search engine rankings, increased organic traffic, and improved visibility in search results.",
+          "ChanRe Medsoft offers expert SEO services to help you maximize your online presence and reach more potential customers. We specialize in helping businesses of all sizes increase their visibility in search engine results, and we offer a range of services to suit your individual needs. Our experienced team of SEO specialists will work with you to identify the best strategies for your business, and we'll help you create content and optimize your website for maximum search engine visibility."
         ].map((text, idx) => (
           <motion.p key={idx} variants={fadeInUp}>
             {text.includes("ChanRe Medsoft") ? (
               <span>
-                At <span className="text-purple-300 font-semibold">ChanRe Medsoft</span>, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience.
+                
               </span>
             ) : (
               text
@@ -67,7 +67,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Our Android App Development Process:
+         Our SEO Process:
         </motion.h3>
 
         <motion.ul
@@ -79,44 +79,44 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Consultation and Idea Evaluation",
+              title: "Website Audit and Analysis:",
               points: [
-                "We begin by understanding your business goals and app ideas.",
-                "Our team evaluates the feasibility and potential of your concept."
+                "We start by conducting a thorough audit of your website to identify strengths and weaknesses.",
+                "In-depth keyword and competitor analysis helps us devise a winning strategy."
               ]
             },
             {
-              title: "Design and Prototyping",
+              title: "On-Page Optimization:",
               points: [
-                "Our designers create intuitive, user-friendly app interfaces.",
-                "We develop prototypes for your feedback and approval."
+                "We optimize your website's structure, content, and meta tags to improve search engine visibility.",
+                "This includes optimizing images, improving site speed, and enhancing user experience."
               ]
             },
             {
-              title: "Development",
+              title: "Content Creation and Optimization:",
               points: [
-                "Our developers bring your app to life using the latest Android technologies.",
-                "We ensure compatibility with various Android devices and OS versions."
+                "Our skilled developers bring your app to life using the latest iOS technologies.",
+                "We ensure compatibility across various iOS devices and OS versions."
               ]
             },
             {
-              title: "Quality Assurance",
+              title: "Link Building:",
               points: [
-                "Rigorous testing is conducted to identify and fix any bugs or issues.",
-                "We perform usability testing to guarantee a seamless user experience."
+                "We build high-quality, authoritative backlinks to enhance your website's domain authority and search engine rankings.",
+                "Our link-building strategies are ethical and follow industry best practices."
               ]
             },
             {
-              title: "Deployment",
+              title: "Monitoring and Reporting:",
               points: [
-                "We assist with app store submission and optimization for maximum visibility.",
-                "Your app is made available to your target audience."
+                "We continuously monitor the performance of your SEO campaign and provide detailed reports on key metrics.",
+                "This ensures transparency and allows for data-driven adjustments to our strategies."
               ]
             },
             {
-              title: "Support and Maintenance",
+              title: "Adaptation and Growth:",
               points: [
-                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive."
+                "SEO is an ongoing process. We adapt to changes in search algorithms and market trends to keep your website at the forefront of search results."
               ]
             }
           ].map((section, idx) => (
@@ -144,7 +144,8 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Why Choose ChanRe Medsoft for Android App Development?
+         Why Choose ChanRe Medsoft for SEO Services?
+
         </motion.h3>
 
         <motion.ul
@@ -156,19 +157,19 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Expertise :",
-              desc1: "Our team consists of seasoned Android developers with years of hands-on experience.",
-              desc2: "We stay up-to-date with the latest trends and technologies in the Android app development ecosystem."
+              title: "Proven Expertise:",
+              desc1: "Our team comprises seasoned SEO experts with a deep understanding of search engine algorithms.",
+              desc2: "We have a track record of delivering tangible results for our clients across various industries."
             },
             {
-              title: "Custom Solutions :",
-              desc1: "We understand that every business is unique.",
-              desc2: "That’s why we offer tailor-made solutions to meet your specific requirements."
+              title: "Tailored Strategies:",
+              desc1: "We understand that every business is unique. That's why we offer customized SEO strategies to align with your specific goals.",
+              desc2: "Our approach is data-driven, ensuring that our strategies are continually optimized for maximum ROI."
             },
             {
-              title: "Comprehensive Services :",
-              desc1: "From concept and design to development and deployment, we provide end-to-end app development services.",
-              desc2: "We also offer post-launch support and maintenance."
+              title: "Comprehensive Services",
+              desc1: "From on-page optimization and keyword research to link building and content creation, we provide end-to-end SEO services.",
+              desc2: "We stay up-to-date with the latest SEO trends and best practices to keep your website ahead of the competition."
             }
           ].map(({ title, desc1, desc2 }, index) => (
             <motion.li
@@ -182,7 +183,7 @@ function AndroidAppDevelopment() {
                 <div className="space-y-1 text-blue-100">
                   <h4 className="text-lg font-semibold text-cyan-300">{title}</h4>
                   <p className="leading-relaxed text-base">{desc1}</p>
-                  <p className="leading-relaxed text-base">{desc2}</p>
+                  {desc2 && <p className="leading-relaxed text-base">{desc2}</p>}
                 </div>
               </div>
             </motion.li>
@@ -195,7 +196,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-          Ready to discuss your Android app development project? Contact us today to schedule a consultation and learn how ChanRe Medsoft can help your business thrive in the digital era.
+         If you're ready to take your online presence to the next level, contact us today to schedule a consultation. Discover how ChanRe Medsoft can help your business climb the search engine ranks and drive organic traffic to your website.
         </motion.p>
 
         <motion.div
@@ -213,4 +214,4 @@ function AndroidAppDevelopment() {
   );
 }
 
-export default AndroidAppDevelopment;
+export default SEO;
