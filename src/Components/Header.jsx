@@ -68,7 +68,7 @@ function Header() {
           <Link to="/" className="block text-white/90 hover:text-cyan-300 transition">Home</Link>
           <Link to="/about" className="block text-white/90 hover:text-cyan-300 transition">About</Link>
           <Link to="/OurServices" className="block text-white/90 hover:text-cyan-300 transition">Services</Link>
-          <Link to="/ourproduct" className="block text-white/90 hover:text-cyan-300 transition">Product</Link>
+          <Link to="/ourproducts" className="block text-white/90 hover:text-cyan-300 transition">Product</Link>
           <Link to="/partner" className="block text-white/90 hover:text-cyan-300 transition">Partner</Link>
           <Link to="/contact" className="block text-white/90 hover:text-cyan-300 transition">Contact</Link>
           <Link
