@@ -52,7 +52,7 @@ function Contact() {
               </div>
               <div className="flex items-start gap-3 text-blue-100">
                 <FaMapMarkerAlt className="text-cyan-400 mt-1" />
-                <p>No. 414/65, 20th Main,West of Chord road,1st Block, Rajajinagar, Bangalore-560010, IN</p>
+                <p>No.414/65,20th Main,1st Block, Rajajinagar, Bangalore-560010, IN</p>
               </div>
             </div>
 
@@ -69,7 +69,7 @@ function Contact() {
         </div>
 
         
-        <div className="overflow-hidden rounded-xl shadow-lg">
+        <div className="overflow-hidden rounded-xl shadow-lg brightness-60">
           <iframe
             title="ChanRe MedSoft Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5717687197343!2d77.54771567500501!3d12.99921901427229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dbc8be6ee1f%3A0x99d77f3579e9ed2e!2sChanRe%20Rheumatology%20And%20Immunology%20Center%20And%20Research!5e0!3m2!1sen!2sin!4v1751968120488!5m2!1sen!2sin"
