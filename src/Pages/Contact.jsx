@@ -3,7 +3,22 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa"
 
 function Contact() {
   return (
-    <section className=" mt-12 text-white py-20 px-6 md:px-20">
+    <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="text-center mb-12"
+      >
+       <h1 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-center">
+          CONTACT US
+        </h1>
+        <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
+          If you have any questions, feel free to reach out to us via phone, email, or by using the form below.
+        </p>
+      </motion.div>
+
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -11,13 +26,7 @@ function Contact() {
         viewport={{ once: true }}
         className="max-w-7xl mx-auto"
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-center">
-          CONTACT US
-        </h1>
-        <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
-          If you have any questions, feel free to reach out to us via phone, email, or by using the form below.
-        </p>
-
+       
         <div className="grid md:grid-cols-2 gap-8 mb-16">
         
           <div className="bg-white/5 backdrop-blur-md p-6 rounded-xl border border-cyan-400/20 shadow-lg">

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function HeroSection() {
   return (
-    <section className="relative z-10 mt-16 px-6 md:px-20 py-52 text-center overflow-hidden">
+    <section className="relative z-10 mt-26 px-6 md:px-20 py-52 text-center overflow-hidden">
       
       <div className="absolute inset-0 -z-20">
         <img
@@ -18,7 +18,7 @@ function HeroSection() {
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="text-5xl md:text-6xl h-30 font-extrabold bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 bg-clip-text text-transparent tracking-wide drop-shadow-xl"
+        className="text-5xl md:text-6xl font-extrabold  text-cyan-400 mb-6 text-center  tracking-wide drop-shadow-xl"
       >
         <Typewriter
           words={["Web Development", "Mobile Apps", "Digital Marketing"]}

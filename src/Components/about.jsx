@@ -9,18 +9,18 @@ function About() {
       viewport={{ once: true }}
       transition={{ staggerChildren: 0.3 }}
     >
-      {/* Glow behind image */}
+      
       <div className="absolute -top-10 -left-10 w-72 h-72 bg-purple-500 rounded-full blur-3xl opacity-10 -z-10" />
       <div className="absolute -bottom-10 -right-10 w-72 h-72 bg-cyan-400 rounded-full blur-3xl opacity-10 -z-10" />
 
-      {/* Left Text Block */}
+      
       <motion.div
         initial={{ opacity: 0, x: -60 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
         className="flex-1 text-center md:text-left"
       >
-        <h2 className="text-4xl font-extrabold mb-4 bg-gradient-to-r from-cyan-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent tracking-wide drop-shadow-lg">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-start">
           About Us
         </h2>
 
@@ -37,7 +37,7 @@ function About() {
         </div>
       </motion.div>
 
-      {/* Right Image */}
+
       <motion.div
         initial={{ opacity: 0, x: 60 }}
         whileInView={{ opacity: 1, x: 0 }}

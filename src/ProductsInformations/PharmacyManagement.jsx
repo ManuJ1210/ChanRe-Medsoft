@@ -100,7 +100,7 @@ const Experiences = [
 
 function PharmacyManagement() {
   return (
-    <section className="bg-gradient-to-br mt-24 text-white py-20 px-6 md:px-20 min-h-screen">
+    <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
         variants={fadeIn("up")}
         initial="hidden"
@@ -108,10 +108,10 @@ function PharmacyManagement() {
         viewport={{ once: true }}
         className="max-w-5xl mx-auto text-center"
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-4 tracking-wide">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-center">
           Pharmacy Management
         </h1>
-        <p className="text-lg font-light text-purple-200 mb-10">
+        <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
           Prescribing Efficiency, Delivering Care: Your Pharmacy Management Solution
         </p>
       </motion.div>

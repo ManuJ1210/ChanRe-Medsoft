@@ -15,6 +15,8 @@ import PharmacyManagement from "../ProductsInformations/PharmacyManagement";
 import Partner from "../Pages/Partner";
 import Contact from "../Pages/Contact";
 import Quotation from "../Pages/Quotation";
+import AndroidAppDevelopment from "../ServicesInfo/AndroidDevelopment";
+
 
 
 function Navigation() {
@@ -40,7 +42,10 @@ function Navigation() {
         <Route path="/OnlineQuize" element={<OnlineQuize />} />
         <Route path="/HIMS" element={<HIMS />} />
         <Route path="/PharmacyManagement" element={<PharmacyManagement />} />
+
+
         <Route path="/WebsiteDevelopment" element={< WebsiteDevelopment/>}/>
+        <Route path="/AndroidAppDevelopment" element={<AndroidAppDevelopment />} />
 
 
       </Routes>

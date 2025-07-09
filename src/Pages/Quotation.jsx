@@ -47,10 +47,10 @@ function Quotation() {
         viewport={{ once: true }}
         className="max-w-7xl mx-auto"
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mb-4">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-center">
           Request a Quotation
         </h1>
-        <p className="text-blue-100 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
           Select a package or request a custom quote. We’ll respond with a tailored proposal based on your business needs.
         </p>
 

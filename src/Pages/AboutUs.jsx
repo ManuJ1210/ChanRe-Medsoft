@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const sections = [
   {
@@ -35,28 +36,31 @@ function AboutUs() {
           viewport={{ once: true }}
           className="text-center bg-white/5 backdrop-blur-md border border-cyan-500/20 rounded-3xl px-6 py-12 md:py-16 shadow-lg shadow-cyan-500/10"
         >
-          <h4 className="text-3xl md:text-4xl font-extrabold mb-4 bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 text-transparent bg-clip-text tracking-wide">
+          <h4 className="text-5xl md:text-4xl font-extrabold mb-4 bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 text-transparent bg-clip-text tracking-wide">
             About Us
           </h4>
           <p className="text-blue-200 max-w-5xl mx-auto mb-8 text-sm md:text-base">
             ChanRe Medsoft is a medical software provider dedicated to enabling smarter care in the healthcare industry for over 25 years. We design leading-edge healthcare IT solutions for organizations of all sizes. Our comprehensive, integrated platforms empower practitioners by offering customizable tools tailored to their needs.
           </p>
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full text-white font-semibold shadow-xl hover:shadow-pink-500/40 transition-all"
-          >
-            Contact Us
-          </motion.button>
+          <Link to="/contact">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full text-white font-semibold shadow-xl hover:shadow-pink-500/40 transition-all"
+            >
+              Contact Us
+            </motion.button>
+          </Link>
         </motion.div>
       </section>
 
      
-      <h3 className="text-3xl md:text-4xl font-extrabold text-center mb-10 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
+      <h3 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-center">
         Why Us?
       </h3>
-      
+      <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
+        Discover the key reasons why ChanRe Medsoft stands out in the healthcare software industry.
+      </p>
 
-     
       {sections.map((sec, index) => {
         const isEven = index % 2 === 0;
         return (

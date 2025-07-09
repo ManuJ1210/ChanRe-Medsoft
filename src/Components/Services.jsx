@@ -29,12 +29,14 @@ const services = [
 function Services() {
   return (
     <section className="relative z-10 px-6 md:px-24 py-24">
-  
-      <h3 className="text-3xl md:text-4xl font-extrabold text-center mb-14 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
+
+      <h3 className="text-4xl md:text-5xl font-extrabold text-cyan-400 text-center mb-6">
         Our Services
       </h3>
+      <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
+        Web Application, Android Application and Digital Marketing Services
+      </p>
 
-     
       <Link to={services.Link}></Link><div className="grid grid-cols-2 md:grid-cols-5 gap-6">
         {services.map((service, idx) => (
           <motion.div

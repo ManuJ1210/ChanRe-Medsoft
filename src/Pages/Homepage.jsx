@@ -4,20 +4,21 @@ import Services from '../Components/Services';
 import About from '../Components/about';
 import Products from '../Components/productSection';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
     <>
       <Header />
 
-      {/* Wrapper adds space below floating nav */}
-      <main className="pt-[100px]">
+    
+      <main className="">
         <HeroSection />
         <Services />
         <About />
         <Products/>
 
-        {/* Custom CTA Section */}
+  
         <section className="relative z-10 px-6 md:px-20 py-24">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -32,12 +33,14 @@ function Homepage() {
             <p className="text-blue-200 max-w-2xl mx-auto mb-8 text-sm md:text-base">
               We design and deliver powerful healthcare software tailored for your hospital, clinic, or digital healthcare needs.
             </p>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full text-white font-semibold shadow-xl hover:shadow-pink-500/40 transition-all"
-            >
-              Contact Us
-            </motion.button>
+            <Link to="/contact">
+              <motion.button
+                whileHover={{ scale: 1.1 }}
+                className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full text-white font-semibold shadow-xl hover:shadow-pink-500/40 transition-all"
+              >
+                Contact Us
+              </motion.button>
+            </Link>
           </motion.div>
         </section>
 

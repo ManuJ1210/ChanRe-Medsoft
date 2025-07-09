@@ -73,10 +73,13 @@ function Products() {
       </style>
 
      
-      <h3 className="text-3xl md:text-4xl font-extrabold text-center mb-14 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 text-transparent bg-clip-text drop-shadow-md tracking-wide">
+      <h3 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-center">
         Our Products
       </h3>
+      <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">
+        Unleash the Digital Possibilities
 
+      </p>
       <div className="relative w-full h-90 overflow-hidden ">
         <div className="flex gap-8 w-max animate-infinite-scroll ">
           {repeated.map((product, idx) => (

@@ -1,17 +1,16 @@
-import Particles from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
+
+import Particles from '@tsparticles/react';
+import { loadAll } from '@tsparticles/all';
 
 export default function Background() {
-  const particlesInit = async (main) => {
-    await loadFull(main);
+  const particlesInit = async (engine) => {
+    await loadAll(engine); 
   };
 
   return (
     <>
-      {/* Futuristic Background Gradient */}
       <div className="fixed inset-0 -z-50 bg-gradient-to-br from-[#000d1a] via-[#001a33] to-[#000c1f]" />
 
-      {/* Animated Particles */}
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -41,7 +40,6 @@ export default function Background() {
         className="fixed inset-0 w-full h-full -z-40"
       />
 
-      {/* Glowing animated blobs */}
       <div className="fixed top-[-6rem] left-[-6rem] w-96 h-96 bg-cyan-400 rounded-full blur-3xl opacity-20 animate-pulse -z-30" />
       <div className="fixed bottom-[-6rem] right-[-6rem] w-96 h-96 bg-purple-600 rounded-full blur-3xl opacity-20 animate-[wiggle_10s_ease-in-out_infinite] -z-30" />
     </>
