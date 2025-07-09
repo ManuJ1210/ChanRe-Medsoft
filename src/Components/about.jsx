@@ -20,7 +20,7 @@ function About() {
         transition={{ duration: 1 }}
         className="flex-1 text-center md:text-left"
       >
-        <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 text-start">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6 lg:text-start sm:text-center md:text-start">
           About Us
         </h2>
 
