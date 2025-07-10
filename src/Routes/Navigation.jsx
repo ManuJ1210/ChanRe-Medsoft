@@ -19,6 +19,11 @@ import AndroidAppDevelopment from "../ServicesInfo/AndroidDevelopment";
 import IOSDevelopment from "../ServicesInfo/IOSDevelopment";
 import HospitalSoftware from "../ServicesInfo/HospitalSoftware";
 import SEO from "../ServicesInfo/SEO";
+import SocialBookmarking from "../ServicesInfo/SocialBookmarking";
+import GoogleAds from "../ServicesInfo/GoogleAds";
+import FacebookAds from "../ServicesInfo/FacebookAds";
+import SEM from "../ServicesInfo/SEM";
+import AISoftware from "../ServicesInfo/AISoftware";
 
 
 
@@ -52,6 +57,11 @@ function Navigation() {
         <Route path="/IOSDevelopment" element={<IOSDevelopment />} />
         <Route path="/HospitalSoftware" element={<HospitalSoftware />} />
         <Route path="/SEO" element={<SEO />} />
+        <Route path="/SocialBookmarking" element={<SocialBookmarking />} />
+        <Route path="/GoogleAds" element={<GoogleAds />} />
+        <Route path="/FacebookAds" element={<FacebookAds />} />
+        <Route path="/SEM" element={<SEM />} />
+        <Route path="/AISoftware" element={<AISoftware />} />
 
       </Routes>
      

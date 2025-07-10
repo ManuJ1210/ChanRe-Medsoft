@@ -7,7 +7,7 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-function HospitalSoftware() {
+function SocialBookmarking() {
   return (
     <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
@@ -18,10 +18,10 @@ function HospitalSoftware() {
         className="text-center mb-12"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6">
-          Hospital Software 
+          Social Bookmarking
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">
-          Empowering Healthcare, One Software Solution
+          Empowering Your Online Presence
         </p>
       </motion.div>
 
@@ -33,8 +33,8 @@ function HospitalSoftware() {
         className="flex justify-center mb-12"
       >
         <img
-          src="/Webdevelopment.png"
-          alt="Android app development flow"
+          src="/social.png"
+          alt="Social bookmarking illustration"
           className="rounded-xl shadow-xl border p-2 border-purple-500/20 max-w-full h-auto"
           width="900"
           height="400"
@@ -48,20 +48,20 @@ function HospitalSoftware() {
         className="max-w-5xl mx-auto text-blue-100 text-lg md:text-xl leading-relaxed space-y-8"
       >
         {[
-          "In today's dynamic healthcare landscape, the role of technology in enhancing patient care and optimizing hospital operations cannot be overstated. Our team of experienced developers is here to empower healthcare providers with tailored software solutions that are designed to streamline processes, improve patient outcomes, and ensure regulatory compliance.",
-          "ChanRe Medsoft offers this pivotal hospital software solution to empower healthcare providers with a robust platform that enhances the quality of patient care. By digitizing patient information and automating administrative tasks, it lightens the administrative burden on your staff, allowing them to focus more on patient care.",
-          "Our software doesn't stop at administrative efficiency; it extends to clinical operations, ensuring smoother workflows, better coordination among medical teams, and quicker access to patient records. This translates to improved patient care, as healthcare professionals can make more informed decisions.",
+          "In this digital age, where an impactful online presence and a strategic content distribution strategy are the keys to success, our seasoned experts stand ready to guide you. ChanRe Medsoft is committed to being your trusted ally in the realm of professional social bookmarking services.",
+          "Imagine a world where your brand doesn't just exist in the digital landscape but thrives, where your content doesn't just get lost in the noise but resonates with your target audience. This is where our expertise in social bookmarking comes into play."
         ].map((text, idx) => (
           <motion.p key={idx} variants={fadeInUp}>
             {text.includes("ChanRe Medsoft") ? (
               <span>
-                At <span className="text-purple-300 font-semibold">ChanRe Medsoft</span>, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience.
+             
               </span>
             ) : (
               text
             )}
           </motion.p>
         ))}
+
 
         
         <motion.h3
@@ -70,7 +70,7 @@ function HospitalSoftware() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-         Key Features and Functions of Hospital Software:
+          How We Amplify Your Brand's Visibility:
         </motion.h3>
 
         <motion.ul
@@ -82,42 +82,35 @@ function HospitalSoftware() {
         >
           {[
             {
-              title: "Patient Management",
+              title: "Content Curation :",
+              desc1: "Our journey begins with curating content that's not just high-quality but shareable. We craft content that speaks the language of your audience.",
+             
             },
             {
-              title: "Electronic Health Records (EHR)",
+              title: "Strategic Planning :",
+              desc1: "We don't just submit content randomly. Our team meticulously plans the distribution strategy, ensuring that your content reaches the right platforms at the right time.",
+          
             },
             {
-              title: "Billing and Invoicing",
-            },
-             {
-              title: "Appointment and Queue Management",
-            },
-            {
-              title: "Clinical Workflow Management",
+              title: "Submission to Top Platforms :",
+              desc1: "We submit your content to the most influential social bookmarking platforms, where it gains visibility among your potential customers.",
+             
             },
             {
-              title: "Inventory and Pharmacy Management",
-            },
-             {
-              title: "Medical Billing and Insurance Claims",
+              title: "Active Community Engagement :",
+              desc1: "Our experts don't just submit and forget. We actively engage with the communities and users who matter most to your brand, fostering discussions and building your brand's credibility.",
             },
             {
-              title: "Analytics and Reporting",
+              title: "Transparent Reporting :",
+              desc1: "We provide you with detailed reports on how your content is performing. You'll see the traffic it's driving, the engagement it's generating, and the impact it's making.",
+             
             },
             {
-              title: "Security and Compliance",
+              title: "Adaptation :",
+              desc1: "Social bookmarking is a dynamic world. We stay on top of trends and changes, ensuring your content remains visible and relevant."
             },
-             {
-              title: "Integration with Medical Devices",
-            },
-            {
-              title: "Mobile Accessibility",
-            },
-            {
-              title: "Patient Engagement"
-            }
-          ].map(({ title }, index) => (
+            
+          ].map(({ title, desc1 }, index) => (
             <motion.li
               key={index}
               initial={{ opacity: 0, x: 20 }}
@@ -128,6 +121,7 @@ function HospitalSoftware() {
                 <FaCheckCircle className="text-purple-400 mt-1 text-xl min-w-[20px]" />
                 <div className="space-y-1 text-blue-100">
                   <h4 className="text-lg font-semibold text-cyan-300">{title}</h4>
+                  <p className="leading-relaxed text-base">{desc1}</p>
                   
                 </div>
               </div>
@@ -135,13 +129,14 @@ function HospitalSoftware() {
           ))}
         </motion.ul>
 
+
         <motion.h3
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          ChanRe Medsoft, Hospital Software Development Process:
+         Why Choose ChanRe Medsoft for Social Bookmarking Services?
         </motion.h3>
 
         <motion.ul
@@ -153,44 +148,24 @@ function HospitalSoftware() {
         >
           {[
             {
-              title: "Needs Assessment:",
+              title: "Proven Expertise:",
               points: [
-                "We commence with a thorough understanding of your hospital's objectives and challenges.",
-                "Our team evaluates the feasibility of your software concept and its potential impact."
+                "Our team comprises experienced digital marketers with a deep understanding of social bookmarking platforms.",
+                "We have a successful track record of delivering tangible results for clients across various industries."
               ]
             },
             {
-              title: "Design and Prototyping",
+              title: "Customized Strategies:",
               points: [
-                "Our expert designers focus on creating user-friendly interfaces tailored to healthcare workflows.",
-                "Prototypes are developed to facilitate your feedback and ensure alignment with your vision."
+                "We understand that every business has unique goals and content needs. That's why we offer tailored social bookmarking strategies to align with your specific objectives.",
+                "Our approach is data-driven, ensuring continuous optimization for maximum ROI."
               ]
             },
             {
-              title: "Development",
+              title: "Comprehensive Services:",
               points: [
-                "Leveraging the latest technologies, our skilled developers bring your hospital software to life.",
-                "We ensure seamless integration with your existing systems."
-              ]
-            },
-            {
-              title: "Quality Assurance",
-              points: [
-                "Rigorous testing is conducted to identify and rectify any issues or vulnerabilities.",
-                "Usability testing ensures that healthcare professionals can navigate the software seamlessly."
-              ]
-            },
-            {
-              title: "Deployment",
-              points: [
-                "We assist with the seamless integration of your software into your hospital's daily operations.",
-                "Your hospital software is made readily accessible for your staff."
-              ]
-            },
-            {
-              title: "Support and Maintenance",
-              points: [
-                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive."
+                "From content curation and submission to community engagement and reporting, we provide end-to-end social bookmarking services.",
+                "We stay updated with the latest social bookmarking trends and best practices to keep your brand competitive."
               ]
             }
           ].map((section, idx) => (
@@ -212,14 +187,13 @@ function HospitalSoftware() {
           ))}
         </motion.ul>
 
-
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-         If you're eager to discuss your hospital software development project, please don't hesitate to reach out to us today and schedule a consultation. Let [Your Organization Name] empower your healthcare institution to excel in the digital age.
+         If you're looking to not just be present in the digital world but to truly shine, to not just distribute content but to engage and build relationships, then welcome to ChanRe Medsoft. We're here to amplify your brand's presence, drive traffic to your digital doorstep, and help you effectively engage with your target audience.
         </motion.p>
 
         <motion.div
@@ -239,4 +213,4 @@ function HospitalSoftware() {
   );
 }
 
-export default HospitalSoftware;
+export default SocialBookmarking;

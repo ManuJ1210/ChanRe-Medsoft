@@ -7,7 +7,7 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-function AndroidAppDevelopment() {
+function FacebookAds() {
   return (
     <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
@@ -18,10 +18,10 @@ function AndroidAppDevelopment() {
         className="text-center mb-12"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6">
-          Android App Development
+          Facebook Ads
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">
-          Turning Ideas into Apps
+         Empowering Your Online Presence
         </p>
       </motion.div>
 
@@ -33,8 +33,8 @@ function AndroidAppDevelopment() {
         className="flex justify-center mb-12"
       >
         <img
-          src="/Webdevelopment.png"
-          alt="Android app development flow"
+          src="/ads.png"
+          alt="Google Ads illustration"
           className="rounded-xl shadow-xl border p-2 border-purple-500/20 max-w-full h-auto"
           width="900"
           height="400"
@@ -48,13 +48,16 @@ function AndroidAppDevelopment() {
         className="max-w-5xl mx-auto text-blue-100 text-lg md:text-xl leading-relaxed space-y-8"
       >
         {[
-          "In today’s digital age, having a strong online presence is essential for any business. That’s why our team of experienced Android developers is here to help you take your business to the next level.",
-          "At ChanRe Medsoft, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience."
+          "Facebook Ads have emerged as a dominant force in the art of captivating your ideal audience and achieving results that go beyond expectations. ChanRe Medsoft is dedicated to being your steadfast ally in the realm of top-tier Facebook Ads management services. Our team of seasoned Facebook Ads professionals is here to help you create, optimize, capture your target audience's attention, achieve outstanding results, and manage high-impact ad campaigns that deliver impressive returns on your advertising investment.",
+
+          "In a digital landscape where every scroll counts, we are here to help you craft campaigns that do more than just interrupt the scrolling thumb; they create moments of engagement, conversations, and conversions. Our mission is not merely to spend your ad budget; it's to make every dollar invested in Facebook Ads work tirelessly for your business.",
+
+          "So, whether you're aiming to boost brand visibility, generate leads, or drive sales, we have the tools, expertise, and dedication to turn your advertising goals into tangible, remarkable results."
         ].map((text, idx) => (
           <motion.p key={idx} variants={fadeInUp}>
             {text.includes("ChanRe Medsoft") ? (
               <span>
-                At <span className="text-purple-300 font-semibold">ChanRe Medsoft</span>, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience.
+               
               </span>
             ) : (
               text
@@ -68,7 +71,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Our Android App Development Process:
+        Our Facebook Ads Management Process:
         </motion.h3>
 
         <motion.ul
@@ -80,44 +83,44 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Consultation and Idea Evaluation",
+              title: "Strategic Planning and Research:",
               points: [
-                "We begin by understanding your business goals and app ideas.",
-                "Our team evaluates the feasibility and potential of your concept."
+                "We start by gaining a deep understanding of your business objectives and target audience.",
+                "Extensive audience research and strategic planning lay the groundwork for effective campaign execution."
               ]
             },
             {
-              title: "Design and Prototyping",
+              title: "Campaign Setup and Creative Ad Development:",
               points: [
-                "Our designers create intuitive, user-friendly app interfaces.",
-                "We develop prototypes for your feedback and approval."
+                "We create highly targeted ad campaigns, selecting the right demographics and interests.",
+                "Our creative team crafts captivating ad creatives to engage your audience and drive conversions."
               ]
             },
             {
-              title: "Development",
+              title: "Budget Optimization and Performance Monitoring:",
               points: [
-                "Our developers bring your app to life using the latest Android technologies.",
-                "We ensure compatibility with various Android devices and OS versions."
+                "We continually optimize ad budgets to ensure efficient spending and maximize ad placements.",
+                "In-depth performance monitoring and A/B testing refine ad performance and boost click-through rates."
               ]
             },
             {
-              title: "Quality Assurance",
+              title: "Ad Extensions and Landing Page Optimization:",
               points: [
-                "Rigorous testing is conducted to identify and fix any bugs or issues.",
-                "We perform usability testing to guarantee a seamless user experience."
+                "We implement ad extensions to provide additional information and enhance user experience.",
+                "Landing pages are meticulously optimized to improve conversion rates and user satisfaction."
               ]
             },
             {
-              title: "Deployment",
+              title: "Comprehensive Reporting and Insights:",
               points: [
-                "We assist with app store submission and optimization for maximum visibility.",
-                "Your app is made available to your target audience."
+                "We provide detailed reports on key metrics, including click-through rate (CTR), conversion rate, and return on ad spend (ROAS).",
+                "Our transparent reporting enables data-driven adjustments to enhance campaign performance."
               ]
             },
             {
-              title: "Support and Maintenance",
+              title: "Adaptation and Growth:",
               points: [
-                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive."
+                "Facebook Ads is a dynamic platform. We adapt to changes in algorithms and market trends to ensure your campaigns remain effective and competitive."
               ]
             }
           ].map((section, idx) => (
@@ -145,7 +148,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Why Choose ChanRe Medsoft for Android App Development?
+          Why Choose us for Facebook Ads Management?
         </motion.h3>
 
         <motion.ul
@@ -157,19 +160,21 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Expertise :",
-              desc1: "Our team consists of seasoned Android developers with years of hands-on experience.",
-              desc2: "We stay up-to-date with the latest trends and technologies in the Android app development ecosystem."
+              title: "Proven Expertise :",
+              desc1: "Our team comprises certified Facebook Ads specialists with a deep understanding of the platform.",
+              desc2: "We have a successful track record of driving tangible results for clients across diverse industries."
+              
             },
             {
-              title: "Custom Solutions :",
-              desc1: "We understand that every business is unique.",
-              desc2: "That’s why we offer tailor-made solutions to meet your specific requirements."
+              title: "Customized Strategies :",
+              desc1: "We understand that every business has unique goals and challenges. That's why we offer tailored Facebook Ads strategies to align with your specific objectives.",
+              desc2: "Our data-driven approach ensures continuous optimization for maximum ROI.",
             },
             {
               title: "Comprehensive Services :",
-              desc1: "From concept and design to development and deployment, we provide end-to-end app development services.",
-              desc2: "We also offer post-launch support and maintenance."
+              desc1: "From campaign setup and audience targeting to ad creation and performance tracking, we provide end-to-end Facebook Ads management services.",
+              desc2: "We stay updated with the latest Facebook Ads trends and best practices to keep your campaigns competitive."
+
             }
           ].map(({ title, desc1, desc2 }, index) => (
             <motion.li
@@ -196,7 +201,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-          Ready to discuss your Android app development project? Contact us today to schedule a consultation and learn how ChanRe Medsoft can help your business thrive in the digital era.
+          If you're ready to supercharge your online advertising efforts and achieve remarkable results with Facebook Ads, contact us today to schedule a consultation. Discover how ChanRe Medsoft can help your business maximize its online reach and drive conversions through expert Facebook Ads management.
         </motion.p>
 
         <motion.div
@@ -216,4 +221,4 @@ function AndroidAppDevelopment() {
   );
 }
 
-export default AndroidAppDevelopment;
+export default FacebookAds;

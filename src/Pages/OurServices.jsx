@@ -23,7 +23,7 @@ const services = [
   { icon: <FaGoogle size={28} color="#EA4335" />, name: "Google Ads", Link:"/GoogleAds"  },
   { icon: <FaFacebook size={28} color="#1877F2" />, name: "Facebook Ads", Link:"/FacebookAds"  },
   { icon: <FaChartLine size={28} color="#6366F1" />, name: "SEM (Search Engine Marketing)", Link:"/SEM"  },
-  { icon: <FaRobot size={28} color="#8B5CF6" />, name: "AI-Based Software", Link:"/AI"  }
+  { icon: <FaRobot size={28} color="#8B5CF6" />, name: "AI-Based Software", Link:"/AISoftware"  }
 ];
 
 export default function ServicesGrid() {

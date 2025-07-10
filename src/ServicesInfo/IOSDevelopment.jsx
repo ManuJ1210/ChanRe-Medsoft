@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -204,9 +205,11 @@ function IOSDevelopment() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-8 text-center"
         >
-          <button className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full text-white font-semibold shadow-xl hover:shadow-pink-500/40 transition-all">
-            Contact Us
-          </button>
+          <Link to="/Contact">
+            <button className="bg-gradient-to-r from-pink-500 to-purple-600 px-8 py-3 rounded-full text-white font-semibold shadow-xl hover:shadow-pink-500/40 transition-all">
+              Contact Us
+            </button>
+          </Link>
         </motion.div>
       </motion.div>
     </section>

@@ -7,7 +7,7 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-function AndroidAppDevelopment() {
+function SEM() {
   return (
     <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
@@ -18,10 +18,10 @@ function AndroidAppDevelopment() {
         className="text-center mb-12"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6">
-          Android App Development
+          SEM
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">
-          Turning Ideas into Apps
+         Empowering Your Online Presence
         </p>
       </motion.div>
 
@@ -33,8 +33,8 @@ function AndroidAppDevelopment() {
         className="flex justify-center mb-12"
       >
         <img
-          src="/Webdevelopment.png"
-          alt="Android app development flow"
+          src="/sem.png"
+          alt="SEM illustration"
           className="rounded-xl shadow-xl border p-2 border-purple-500/20 max-w-full h-auto"
           width="900"
           height="400"
@@ -48,13 +48,12 @@ function AndroidAppDevelopment() {
         className="max-w-5xl mx-auto text-blue-100 text-lg md:text-xl leading-relaxed space-y-8"
       >
         {[
-          "In today’s digital age, having a strong online presence is essential for any business. That’s why our team of experienced Android developers is here to help you take your business to the next level.",
-          "At ChanRe Medsoft, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience."
+          "At ChanRe Medsoft, we are your go-to partner for high-performance SEM (Search Engine Marketing) solutions. With the ever-evolving digital environment, effective online advertising is a must to stay ahead of the competition. Our team of experienced SEM professionals provides you with top-tier Search Engine Marketing solutions to help you achieve immediate visibility, drive targeted traffic, maximize ROI, and get the most value for your investment with our strategic paid advertising campaigns.",
         ].map((text, idx) => (
           <motion.p key={idx} variants={fadeInUp}>
             {text.includes("ChanRe Medsoft") ? (
               <span>
-                At <span className="text-purple-300 font-semibold">ChanRe Medsoft</span>, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience.
+               
               </span>
             ) : (
               text
@@ -68,7 +67,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Our Android App Development Process:
+      Our SEM Process:
         </motion.h3>
 
         <motion.ul
@@ -80,44 +79,44 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Consultation and Idea Evaluation",
+              title: "Market Research and Keyword Analysis:",
               points: [
-                "We begin by understanding your business goals and app ideas.",
-                "Our team evaluates the feasibility and potential of your concept."
+                "We start by conducting extensive market research to understand your industry and competitors.",
+                "Thorough keyword analysis helps us identify high-value keywords to target in your campaigns."
               ]
             },
             {
-              title: "Design and Prototyping",
+              title: "Campaign Setup and Ad Creation:",
               points: [
-                "Our designers create intuitive, user-friendly app interfaces.",
-                "We develop prototypes for your feedback and approval."
+                "We create highly targeted ad campaigns on platforms like Google Ads and Bing Ads.",
+                "Compelling ad copy and eye-catching visuals are crafted to attract your ideal audience."
               ]
             },
             {
-              title: "Development",
+              title: "Bid Management and Optimization:",
               points: [
-                "Our developers bring your app to life using the latest Android technologies.",
-                "We ensure compatibility with various Android devices and OS versions."
+                "Our team monitors and optimizes bids in real-time to ensure cost-effectiveness and maximize ad placements.",
+                "We use A/B testing to refine ad performance and boost click-through rates."
               ]
             },
             {
-              title: "Quality Assurance",
+              title: "Ad Extensions and Landing Page Optimization:",
               points: [
-                "Rigorous testing is conducted to identify and fix any bugs or issues.",
-                "We perform usability testing to guarantee a seamless user experience."
+                "We implement ad extensions to provide additional information and drive conversions.",
+                "Landing pages are optimized to enhance user experience and increase conversion rates."
               ]
             },
             {
-              title: "Deployment",
+              title: "Performance Tracking and Reporting:",
               points: [
-                "We assist with app store submission and optimization for maximum visibility.",
-                "Your app is made available to your target audience."
+                "We provide detailed reports on key metrics, including click-through rate (CTR), conversion rate, and return on ad spend (ROAS).",
+                "This allows for transparent performance evaluation and data-driven adjustments."
               ]
             },
             {
-              title: "Support and Maintenance",
+              title: "Adaptation and Growth:",
               points: [
-                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive."
+                "SEM is an ever-evolving landscape. We adapt to changes in ad platforms and market dynamics to keep your campaigns effective."
               ]
             }
           ].map((section, idx) => (
@@ -145,7 +144,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Why Choose ChanRe Medsoft for Android App Development?
+          Why Choose ChanRe Medsoft for SEM Services?
         </motion.h3>
 
         <motion.ul
@@ -157,21 +156,21 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Expertise :",
-              desc1: "Our team consists of seasoned Android developers with years of hands-on experience.",
-              desc2: "We stay up-to-date with the latest trends and technologies in the Android app development ecosystem."
+              title: "Proven Expertise :",
+              desc1: "Our team comprises seasoned SEM experts with a deep understanding of online advertising platforms. We have a track record of delivering tangible results for our clients across diverse industries.",
+              
             },
             {
-              title: "Custom Solutions :",
-              desc1: "We understand that every business is unique.",
-              desc2: "That’s why we offer tailor-made solutions to meet your specific requirements."
+              title: "Tailored Strategies :",
+              desc1: "We understand that every business is unique. That's why we offer customized SEM strategies to align with your specific objectives. Our approach is data-driven, ensuring that our campaigns are continually optimized for maximum ROI.",
+           
             },
             {
               title: "Comprehensive Services :",
-              desc1: "From concept and design to development and deployment, we provide end-to-end app development services.",
-              desc2: "We also offer post-launch support and maintenance."
+              desc1: "From keyword research and ad creation to bid management and performance tracking, we provide end-to-end SEM services. We stay updated with the latest SEM trends and best practices to keep your campaigns competitive.",
+        
             }
-          ].map(({ title, desc1, desc2 }, index) => (
+          ].map(({ title, desc1 }, index) => (
             <motion.li
               key={index}
               initial={{ opacity: 0, x: 20 }}
@@ -183,7 +182,7 @@ function AndroidAppDevelopment() {
                 <div className="space-y-1 text-blue-100">
                   <h4 className="text-lg font-semibold text-cyan-300">{title}</h4>
                   <p className="leading-relaxed text-base">{desc1}</p>
-                  <p className="leading-relaxed text-base">{desc2}</p>
+                
                 </div>
               </div>
             </motion.li>
@@ -196,7 +195,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-          Ready to discuss your Android app development project? Contact us today to schedule a consultation and learn how ChanRe Medsoft can help your business thrive in the digital era.
+          If you're ready to supercharge your online presence and drive targeted traffic to your website, contact us today to schedule a consultation. Discover how ChanRe Medsoft can help your business achieve immediate visibility and boost online conversions through strategic SEM campaigns.
         </motion.p>
 
         <motion.div
@@ -216,4 +215,4 @@ function AndroidAppDevelopment() {
   );
 }
 
-export default AndroidAppDevelopment;
+export default SEM;

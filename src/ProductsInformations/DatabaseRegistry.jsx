@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const fadeIn = (direction = "up", delay = 0) => {
   const variants = {
@@ -177,12 +178,12 @@ function DatabaseRegistry() {
         viewport={{ once: true }}
         className="flex justify-center gap-4 mt-10"
       >
-        <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-purple-500/40">
+        <Link to="/Quotation"><button className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-purple-500/40">
           Quotation
-        </button>
-        <button className="bg-gradient-to-r from-green-500 to-teal-500 px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-green-400/40">
+        </button></Link>
+        <Link to="/Contact"><button className="bg-gradient-to-r from-green-500 to-teal-500 px-6 py-2 rounded-full text-white font-semibold shadow-md hover:shadow-green-400/40">
           Contact
-        </button>
+        </button></Link>
       </motion.div>
     </section>
   );

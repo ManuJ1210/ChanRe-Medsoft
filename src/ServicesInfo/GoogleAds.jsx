@@ -7,7 +7,7 @@ const fadeInUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
-function AndroidAppDevelopment() {
+function GoogleAds() {
   return (
     <section className="py-16 px-6 md:px-20 mt-12 text-white min-h-screen">
       <motion.div
@@ -18,10 +18,10 @@ function AndroidAppDevelopment() {
         className="text-center mb-12"
       >
         <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-6">
-          Android App Development
+          Google Ads 
         </h2>
         <p className="text-blue-100 max-w-2xl mx-auto">
-          Turning Ideas into Apps
+         Empowering Your Online Presence
         </p>
       </motion.div>
 
@@ -33,8 +33,8 @@ function AndroidAppDevelopment() {
         className="flex justify-center mb-12"
       >
         <img
-          src="/Webdevelopment.png"
-          alt="Android app development flow"
+          src="/ads.png"
+          alt="Google Ads illustration"
           className="rounded-xl shadow-xl border p-2 border-purple-500/20 max-w-full h-auto"
           width="900"
           height="400"
@@ -48,13 +48,16 @@ function AndroidAppDevelopment() {
         className="max-w-5xl mx-auto text-blue-100 text-lg md:text-xl leading-relaxed space-y-8"
       >
         {[
-          "In today’s digital age, having a strong online presence is essential for any business. That’s why our team of experienced Android developers is here to help you take your business to the next level.",
-          "At ChanRe Medsoft, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience."
+          "In today's competitive digital landscape, having a strong presence on Google is paramount. ChanRe Medsoft is a trusted partner for creating highly effective Google Ads campaigns. Our team of experienced Google Ads specialists is here to help you reach your target audience, drive qualified leads, and achieve measurable ROI through strategic advertising campaigns. We are a group of seasoned Google Ads professionals who have traversed the digital landscape, honing their skills and strategies to perfection.",
+
+          "In a world where every click counts, we are here to help you craft campaigns that don't just generate clicks but meaningful engagements that translate into tangible results. Our mission is to ensure that every ad dollar spent is an investment, not an expense. We don't just create campaigns; we sculpt digital masterpieces that drive business growth.",
+
+          "So, whether you're looking to create a brand presence, generate leads, or boost sales, we have the tools, knowledge, and passion to make it happen. Welcome to a world where your digital success is not just a goal; it's an expectation."
         ].map((text, idx) => (
           <motion.p key={idx} variants={fadeInUp}>
             {text.includes("ChanRe Medsoft") ? (
               <span>
-                At <span className="text-purple-300 font-semibold">ChanRe Medsoft</span>, we understand that every business has unique needs. Our apps are custom-made to fit your specific requirements, ensuring an amazing user experience.
+               
               </span>
             ) : (
               text
@@ -68,7 +71,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Our Android App Development Process:
+         Our Google Ads Management Process:
         </motion.h3>
 
         <motion.ul
@@ -80,44 +83,44 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Consultation and Idea Evaluation",
+              title: "Strategic Planning and Research:",
               points: [
-                "We begin by understanding your business goals and app ideas.",
-                "Our team evaluates the feasibility and potential of your concept."
+                "We begin with a deep dive into your business goals, target audience, and competition.",
+                "Extensive keyword research and competitive analysis lay the foundation for strategic campaign planning."
               ]
             },
             {
-              title: "Design and Prototyping",
+              title: "Campaign Setup and Ad Creation:",
               points: [
-                "Our designers create intuitive, user-friendly app interfaces.",
-                "We develop prototypes for your feedback and approval."
+                "We create highly targeted ad campaigns, selecting the right keywords and audience segments.",
+                "Our team crafts compelling ad copy and designs eye-catching visuals to maximize ad performance."
               ]
             },
             {
-              title: "Development",
+              title: "Bid Management and Optimization:",
               points: [
-                "Our developers bring your app to life using the latest Android technologies.",
-                "We ensure compatibility with various Android devices and OS versions."
+                "We continuously monitor and optimize bids to ensure cost-effectiveness and top ad placements.",
+                "A/B testing helps refine ad performance and increase click-through rates."
               ]
             },
             {
-              title: "Quality Assurance",
+              title: "Ad Extensions and Landing Page Optimization:",
               points: [
-                "Rigorous testing is conducted to identify and fix any bugs or issues.",
-                "We perform usability testing to guarantee a seamless user experience."
+                "We implement ad extensions to provide additional information and drive conversions.",
+                "Landing pages are optimized to enhance user experience and boost conversion rates."
               ]
             },
             {
-              title: "Deployment",
+              title: "Performance Tracking and Reporting:",
               points: [
-                "We assist with app store submission and optimization for maximum visibility.",
-                "Your app is made available to your target audience."
+                "Detailed reports on key metrics, including click-through rate (CTR), conversion rate, and return on ad spend (ROAS), are provided.",
+                "Transparent reporting allows for performance evaluation and data-driven adjustments."
               ]
             },
             {
-              title: "Support and Maintenance",
+              title: "Adaptation and Growth:",
               points: [
-                "We provide ongoing support, updates, and maintenance to ensure your app remains competitive."
+                "Google Ads is a dynamic platform. We adapt to changes in algorithms and market trends to ensure your campaigns stay effective."
               ]
             }
           ].map((section, idx) => (
@@ -145,7 +148,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-cyan-300 font-semibold text-2xl mt-12 mb-4"
         >
-          Why Choose ChanRe Medsoft for Android App Development?
+          Why Choose ChanRe Medsoft for Google Ads Management?
         </motion.h3>
 
         <motion.ul
@@ -157,21 +160,21 @@ function AndroidAppDevelopment() {
         >
           {[
             {
-              title: "Expertise :",
-              desc1: "Our team consists of seasoned Android developers with years of hands-on experience.",
-              desc2: "We stay up-to-date with the latest trends and technologies in the Android app development ecosystem."
+              title: "Proven Expertise :",
+              desc1: "Our team comprises certified Google Ads specialists with a deep understanding of the platform. We have a successful track record of driving tangible results for clients across diverse industries.",
+              
             },
             {
-              title: "Custom Solutions :",
-              desc1: "We understand that every business is unique.",
-              desc2: "That’s why we offer tailor-made solutions to meet your specific requirements."
+              title: "Customized Strategies :",
+              desc1: "We understand that every business has unique goals and challenges. That's why we offer tailored Google Ads strategies to align with your specific objectives. Our data-driven approach ensures continuous optimization for maximum ROI.",
+           
             },
             {
-              title: "Comprehensive Services :",
-              desc1: "From concept and design to development and deployment, we provide end-to-end app development services.",
-              desc2: "We also offer post-launch support and maintenance."
+              title: "End-to-End Management:",
+              desc1: "From campaign setup and keyword research to ad creation and performance tracking, we provide comprehensive Google Ads management services. We stay updated with the latest Google Ads trends and best practices to keep your campaigns competitive.",
+        
             }
-          ].map(({ title, desc1, desc2 }, index) => (
+          ].map(({ title, desc1 }, index) => (
             <motion.li
               key={index}
               initial={{ opacity: 0, x: 20 }}
@@ -183,7 +186,7 @@ function AndroidAppDevelopment() {
                 <div className="space-y-1 text-blue-100">
                   <h4 className="text-lg font-semibold text-cyan-300">{title}</h4>
                   <p className="leading-relaxed text-base">{desc1}</p>
-                  <p className="leading-relaxed text-base">{desc2}</p>
+                
                 </div>
               </div>
             </motion.li>
@@ -196,7 +199,7 @@ function AndroidAppDevelopment() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6"
         >
-          Ready to discuss your Android app development project? Contact us today to schedule a consultation and learn how ChanRe Medsoft can help your business thrive in the digital era.
+          If you're ready to take your online advertising to the next level and achieve remarkable results with Google Ads, contact us today to schedule a consultation. Discover how ChanRe Medsoft can help your business maximize its online reach and drive conversions through expert Google Ads management.
         </motion.p>
 
         <motion.div
@@ -216,4 +219,4 @@ function AndroidAppDevelopment() {
   );
 }
 
-export default AndroidAppDevelopment;
+export default GoogleAds;
