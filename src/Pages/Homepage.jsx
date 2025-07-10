@@ -3,6 +3,7 @@ import HeroSection from '../Components/HeroSection';
 import Services from '../Components/Services';
 import About from '../Components/about';
 import Products from '../Components/productSection';
+import UserReviews from '../Components/UserReviews';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function Homepage() {
         <Services />
         <About />
         <Products/>
+        <UserReviews />
 
   
         <section className="relative z-10 px-6 md:px-20 py-24">

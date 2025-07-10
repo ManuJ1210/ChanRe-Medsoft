@@ -4,8 +4,9 @@ import {
   FaEnvelope,
   FaFacebook,
   FaGoogle,
-  FaAndroid,
+  FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -22,66 +23,65 @@ function Footer() {
           </p>
         </div>
 
-        {/* Quick Links */}
+        
         <div>
           <h4 className="text-white text-lg font-bold mb-3">Quick Links</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-cyan-300 transition">
+              <Link to="/" className="hover:text-cyan-300 transition">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-cyan-300 transition">
+              <Link to="/about" className="hover:text-cyan-300 transition">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-cyan-300 transition">
+              <Link to="/ourproducts" className="hover:text-cyan-300 transition">
                 Products
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-cyan-300 transition">
+              <Link to="/ourservices" className="hover:text-cyan-300 transition">
                 Services
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
 
-        {/* Contact Info */}
-        <div>
+        {/* Contact Info */}<div>
           <h4 className="text-white text-lg font-bold mb-3">Contact</h4>
           <p className="flex items-center gap-2 mb-1">
-            <FaMapMarkerAlt className="text-cyan-400" /> 123 Health St, Bangalore
+            <FaMapMarkerAlt className="text-cyan-400" /> No. 414/65, 20th Main,West of Chord road,1st Block, Rajajinagar, Bangalore-560010
           </p>
           <p className="flex items-center gap-2 mb-1">
-            <FaPhone className="text-cyan-400" /> +91 98765 43210
+            <FaPhone className="text-cyan-400" /> +91 80-42516636
           </p>
           <p className="flex items-center gap-2 mb-3">
-            <FaEnvelope className="text-cyan-400" /> support@chanremedsoft.com
+            <FaEnvelope className="text-cyan-400" /> marketing@chanrejournals.com
           </p>
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-3 text-xl">
-            <a
-              href="#"
+            <Link
+              to="#"
               className="hover:text-cyan-400 transition transform hover:scale-110"
             >
               <FaFacebook />
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="#"
               className="hover:text-cyan-400 transition transform hover:scale-110"
             >
               <FaGoogle />
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="#"
               className="hover:text-cyan-400 transition transform hover:scale-110"
             >
-              <FaAndroid />
-            </a>
+              <FaInstagram />
+            </Link>
           </div>
         </div>
       </div>
