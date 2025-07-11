@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
-import { FaStar, FaRocket, FaCode, FaMobileAlt } from "react-icons/fa";
+
 
 function Quotation() {
   const form = useRef();
@@ -96,7 +96,10 @@ function Quotation() {
 
     
       {showModal && (
-        <div className="fixed inset-0 z-50 backdrop-blur-xs flex items-center justify-center">
+        <motion.div initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+           className="fixed inset-0 z-50 backdrop-blur-xs flex items-center justify-center">
           <div className="bg-gradient-to-br from-[#000d1a] via-[#001a33] to-[#000c1f] p-6 rounded-xl border border-cyan-400/20 backdrop-blur-lg shadow-lg max-w-md w-full text-center ">
             <h2 className="text-2xl font-bold text-cyan-400 mb-4">Request Submitted!</h2>
             <p className="text-white  mb-6">
@@ -108,8 +111,9 @@ function Quotation() {
             >
               Close
             </button>
+            
           </div>
-        </div>
+        </motion.div>
       )}
     </section>
   );
