@@ -20,7 +20,7 @@ function Header() {
           </div>
         </Link>
 
-        <div className="hidden md:flex gap-6 text-sm sm:text-base items-center">
+        <div className="hidden md:flex gap-6 text-sm font-semibold sm:text-base items-center">
           <Link to="/" className="text-white/80 hover:text-cyan-300 transition">Home</Link>
           <Link to="/about" className="text-white/80 hover:text-cyan-300 transition">About</Link>
           <Link to="/OurServices" className="text-white/80 hover:text-cyan-300 transition">Services</Link>
