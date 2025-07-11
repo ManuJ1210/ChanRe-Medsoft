@@ -72,6 +72,7 @@ function Contact() {
                   type="text"
                   name="user_phone"
                   placeholder="Phone"
+                  required
                   className="w-1/2 px-4 py-2 bg-transparent border border-blue-500 rounded-md text-white placeholder:text-blue-300 focus:outline-none"
                 />
               </div>
