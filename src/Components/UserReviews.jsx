@@ -70,17 +70,19 @@ export default function UserReviews() {
   return (
     <section className="py-16 px-6 md:px-20 text-white">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-cyan-400 text-center mb-6">
           What Our Clients Say
         </h2>
-        <p className="text-blue-300 mt-2">Real feedback from our trusted partners.</p>
+        <p className="text-center text-blue-100 max-w-2xl mx-auto mb-12">Real feedback from our trusted partners.</p>
       </div>
 
       <div ref={sliderRef} className="keen-slider">
         {reviews.map((review, index) => (
           <ReviewCard key={index} {...review} />
+          
         ))}
       </div>
     </section>
+
   );
 }
