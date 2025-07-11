@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <nav className="sticky top-4 left-1/2 -translate-x-1/2 z-50 w-[95vw] md:w-[85%] lg:w-[70%] xl:w-[60%] 
+      <nav className="sticky top-4 mx-auto  z-50 w-[95vw] md:w-[85%] lg:w-[70%] xl:w-[60%] 
                       backdrop-blur-lg bg-white/10 border border-cyan-500/30 rounded-full 
                       px-4 py-2 sm:px-5 sm:py-3 flex items-center justify-between shadow-xl max-w-full">
         <Link to="/">
