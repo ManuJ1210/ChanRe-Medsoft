@@ -1,5 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router';
 
 function HeroSection() {
   return (
@@ -9,7 +10,7 @@ function HeroSection() {
         <img
           src="/banner.png"
           alt="Futuristic Web Development Illustration"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[1200px] opacity-20 object-contain"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[1100px] opacity-20 object-contain"
         />
       </div>
 
@@ -48,10 +49,12 @@ function HeroSection() {
         transition={{ duration: 1, delay: 0.4 }}
         className="mt-10"
       >
-        <button className="relative  inline-block px-8 py-3 font-semibold text-white rounded-full bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-500 shadow-xl hover:brightness-110 transition">
-          Get Started
-          <span className="absolute top-0 left-0 w-full h-full rounded-full bg-white opacity-10 blur-md animate-pulse"></span>
-        </button>
+        <Link to="/contact">
+          <button className="relative  inline-block px-8 py-3 font-semibold text-white rounded-full bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-500 shadow-xl hover:brightness-110 transition">
+            Get Started
+            <span className="absolute top-0 left-0 w-full h-full rounded-full bg-white opacity-10 blur-md animate-pulse"></span>
+          </button>
+        </Link>
       </motion.div>
     </section>
   );

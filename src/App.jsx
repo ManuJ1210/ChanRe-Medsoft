@@ -33,7 +33,6 @@ function App() {
       <ScrollToTop />
       <div className="relative z-10">
         <Header />
-
         <Navigation />
         <Footer />
       </div>

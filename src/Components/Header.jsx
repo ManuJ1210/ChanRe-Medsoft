@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[95vw] md:w-[85%] lg:w-[70%] xl:w-[60%] 
+      <nav className="sticky top-4 left-1/2 -translate-x-1/2 z-50 w-[95vw] md:w-[85%] lg:w-[70%] xl:w-[60%] 
                       backdrop-blur-lg bg-white/10 border border-cyan-500/30 rounded-full 
                       px-4 py-2 sm:px-5 sm:py-3 flex items-center justify-between shadow-xl max-w-full">
         <Link to="/">
@@ -56,7 +56,7 @@ function Header() {
       </nav>
 
       {menuOpen && (
-        <div className="fixed top-[4.8rem] left-1/2 -translate-x-1/2 mt-3 
+        <div className="sticky top-[4.8rem] left-1/2 -translate-x-1/2 mt-3 
                         w-[90vw] max-w-sm md:hidden bg-white/10 backdrop-blur-lg 
                         border border-cyan-500/20 rounded-2xl shadow-xl 
                         text-center text-sm space-y-4 py-6 px-4 z-40">
