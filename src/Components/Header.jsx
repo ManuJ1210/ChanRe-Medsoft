@@ -58,7 +58,7 @@ function Header() {
       </nav>
 
       {menuOpen && (
-        <div className="sticky top-[4.8rem] mx-auto mt-3 
+        <div className="sticky top-[5.8rem] mx-auto mt-3 
                         w-[90vw] max-w-sm md:hidden bg-white/10 backdrop-blur-lg 
                         border border-cyan-500/20 rounded-2xl shadow-xl 
                         text-center text-sm space-y-4 py-6 px-4 z-40">
